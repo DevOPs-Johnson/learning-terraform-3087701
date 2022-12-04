@@ -2,8 +2,8 @@ data "aws_ami" "app_ami" {
   most_recent = true
 
   filter {
-    name   = "name"
-    values = ["Goldamitest"]
+    image_id   = "image_id"
+    values = ["ami-0695144fa1270e177"]
   }
 
   filter {
